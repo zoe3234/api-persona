@@ -22,6 +22,7 @@ class PersonaController extends Controller
         return response()->json($personas, 200);
     }
 
+    
     public function alta(Request $request)
     {
         $persona = Persona::create([
